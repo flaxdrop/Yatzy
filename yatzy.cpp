@@ -10,6 +10,15 @@ class yatzy
         return 1 + rand() % 6;
     }
 };
+class Player
+{
+  public:
+  std::string name;
+  int points;
+  int turn;
+
+};
+
 
 int main()
 {
@@ -24,15 +33,5 @@ int main()
     std::cin >> players2.name;
      
 }
-
-class Player
-{
-  public:
-  std::string name;
-  int points;
-  int turn;
-
-};
-
 
 
