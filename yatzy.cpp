@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
-class yatzy
+class Dice
 {
     int dieThrowValues[5];
     public: 
