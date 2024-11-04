@@ -9,7 +9,7 @@ void chooseCategory() {
     int category;
     std::cin >> category;
 
-    // Denna kollar ifall ditt val är giltigt 
+    // Denna kollar ifall ditt val är giltigt och sparar ditt poäng
     if (category >= 1 && category <= 13 && scores[category - 1] == -1) {
         scores[category - 1] = calculateScore(category);
         totalScore += scores[category - 1];
