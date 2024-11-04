@@ -13,14 +13,15 @@ class yatzy
 
 int main()
 {
-    std::string playerName, playerName2;
-    Player players[2];
+    //std::string playerName, playerName2;
+    Player players1;
+    Player players2;
     srand(time(NULL));
     
     std::cout<< "Ange namnet av spelare 1: " << std::endl;
-    std::cin >> playerName;
+    std::cin >> players1.name;
     std::cout<< "Ange namnet av spelare 2: " << std::endl;
-    std::cin >> playerName2;
+    std::cin >> players2.name;
      
 }
 
